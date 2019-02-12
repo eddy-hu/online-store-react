@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "I am Groot",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "1-groot.jpg",
+      "age": ["0", "+"],
+      "price": 19.99
+    },
+    {
+      "id": 2,
+      "name": "I am Groot",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "1-groot.jpg",
+      "age": ["0", "+"],
+      "price": 19.99
+    },
+    {
+      "id": 3,
+      "name": "I am Groot",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "1-groot.jpg",
+      "age": ["0", "+"],
+      "price": 19.99
+    },
+    {
+      "id": 4,
+      "name": "I am Groot",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "1-groot.jpg",
+      "age": ["0", "+"],
+      "price": 19.99
+    },
+    {
+      "id": 5,
+      "name": "I am Groot",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "1-groot.jpg",
+      "age": ["0", "+"],
+      "price": 19.99
+    }
+  ]
+}
