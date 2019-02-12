@@ -2,48 +2,48 @@
   "products": [
     {
       "id": 1,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
-      "image": "1-groot.jpg",
+      "name": "Athletic Works Women's Basic Tee",
+      "description": "Work up a sweat in this classic tee designed with moisture wicking technology to keep you feeling cool and dry.",
+      "keywords": ["100% Polyester", "Dri-More moisture wicking technology", " V-neckline", "Short sleeves"],
+      "image": "aw1.jpg",
       "age": ["0", "+"],
       "price": 19.99
     },
     {
       "id": 2,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
-      "image": "1-groot.jpg",
+      "name": "Athletic Works Women's Peek-A-Boo Tank",
+      "description": "Peek-A-Boo! You'll stay cool in this ventilated, durable tank with an added criss cross back.",
+      "keywords": [" 94% Polyester, 6% Spandex", "Dri-more fabric", "Criss cross back"],
+      "image": "aw2.jpg",
       "age": ["0", "+"],
-      "price": 19.99
+      "price": 15.99
     },
     {
       "id": 3,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
-      "image": "1-groot.jpg",
+      "name": "Athletic Works Women's Hybrid Tank",
+      "description": "Workout gear made easy with this breathable 2-in-1 sports bra and tank top combo.",
+      "keywords": ["Body: 88% Polyester, 12% Spandex", "Machine wash", "Wide elastic band provides support", "Racerback straps"],
+      "image": "aw3.jpg",
       "age": ["0", "+"],
-      "price": 19.99
+      "price": 9.99
     },
     {
       "id": 4,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
-      "image": "1-groot.jpg",
+      "name": "Athletic Works Women's Basic Tank",
+      "description": "This sporty tank by Athletic Works is stretchy, sleek and soft.",
+      "keywords": ["100% Polyester", "Sleeveless ", "Stretch feel"],
+      "image": "aw4.jpg",
       "age": ["0", "+"],
-      "price": 19.99
+      "price": 13.99
     },
     {
       "id": 5,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
-      "image": "1-groot.jpg",
+      "name": "Athletic Works Women's Drop Needle Tank",
+      "description": "A sleeveless athletic tank with built-in DRI-MORE technology.",
+      "keywords": ["94% polyester, 6% spandex", " DRI-MORE technology wicks away moisture", "Asymmetrical side slit", "Sheer"],
+      "image": "aw5.jpg",
       "age": ["0", "+"],
-      "price": 19.99
+      "price": 18.99
     }
   ]
 }
