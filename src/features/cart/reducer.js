@@ -19,14 +19,13 @@ const removeAllFromCart = (cart, item) => {
     return [...cartWithoutItem(cart, item)]
 }
 
-
 const cartReducer = (state=[], action) => {
     switch(action.type){
         case 'ADD':
             return addToCart(state, action.payload);
         case 'REMOVE':
             return removeFromCart(state, action.payload)
-           // const firstMatchIndex = state.indexOf(action.payload)
+            // const firstMatchIndex = state.indexOf(action.payload)
             //return state.filter((item, index) => index !== firstMatchIndex)
         case 'REMOVE_ALL':
         return removeAllFromCart(state, action.payload)

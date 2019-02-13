@@ -1,30 +1,46 @@
 import React, { Component } from 'react';
 import ProductListItem from './product-list-item';
 import { connect } from 'react-redux';
-import { cartItemsWithQuantities } from '../cart';
+import fetchApi from '../../modules/fetch-api';
 
-function ProductListing(props){
+class ProductListing extends Component{
+
+    componentDidMount(){
+        const { loadProducts } = this.props
+        fetchApi('get', 'http://5c631d8186452c00147aad95.mockapi.io/product')
+            .then((json => {
+                loadProducts(json)
+            }))
+    }
+
+    render(){
+    const { addToCart, removeFromCart, products, cart } = this.props
     return <div className='product-listing'>
-      { props.products.map( product => 
+      { products.map( product => 
       <ProductListItem 
         product ={product}
-        addToCart={props.addToCart}
-        removeFromCart={props.removeFromCart}
-        cartItem={props.cart.filter( cartItem => cartItem.id === product.id)[0]}
+        addToCart={addToCart}
+        removeFromCart={removeFromCart}
+        cartItem={cart.filter( cartItem => cartItem.id === product.id)[0]}
         //cart={cartItemsWithQuantities(props.cart)}
       /> ) 
     } 
     </div>
+    }
 }
 
 function mapStateToProps(state){
     return{
-        cart: state.cart
+        cart: state.cart,
+        products: state.products,
     }
 }
 
 function mapDispatchToProps(dispatch){
     return{
+    loadProducts: (products) => {
+        dispatch({ type: 'LOAD', payload: products})
+    },
     addToCart: (item) => {
         dispatch({ type: 'ADD', payload: item })
     },

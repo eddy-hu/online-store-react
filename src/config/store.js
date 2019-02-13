@@ -1,9 +1,13 @@
 import { createStore, combineReducers } from 'redux';
 import cartReducer from '../features/cart/reducer';
-
+import productsReducer from '../features/product-listing/reducer'; 
+import { reducer as formReducer } from 'redux-form';
 
 const rootReducer =combineReducers({
-    cart: cartReducer
+    cart: cartReducer,
+    products: productsReducer,
+    form: formReducer,
+
 })
 
 const store = createStore(
